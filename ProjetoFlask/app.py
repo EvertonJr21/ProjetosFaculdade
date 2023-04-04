@@ -12,9 +12,9 @@ def pratos(id):
         return render_template('hamburguer.html')
     elif int(id) == 2:
         return render_template('lasanha.html')
-    elif ind(id) == 3:
+    elif int(id) == 3:
         return render_template('panqueca.html')
-    elif ind(id) == 4:
+    elif int(id) == 4:
         return render_template('pizza.html')
     else:
         return render_template('erro.html')
